@@ -21,6 +21,7 @@ class WikimediaConsumer:
         config["sasl_plain_password"] = sasl_plain_password
 
         # Data serialization configs
+        config["key_deserializer"] = bytes.decode
         config["value_deserializer"] = bytes.decode
 
         # Consumer Group
