@@ -2,6 +2,7 @@ from kafka import KafkaProducer
 
 from creds_config.kafka_connect_creds import *
 
+
 class WikimediaProducer:
     @staticmethod
     def get_topic() -> str:
@@ -36,6 +37,8 @@ class WikimediaProducer:
         producer = KafkaProducer(**config)
 
         producer.send(topic, "test-kafka")
+
+        producer.close()
 
 
 WikimediaProducer.main()
