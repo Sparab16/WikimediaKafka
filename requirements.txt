@@ -2,3 +2,4 @@ certifi==2022.12.7
 kafka-python==2.0.2
 wincertstore==0.2
 requests~=2.30.0
+opensearch-py==2.2.0
