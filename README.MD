@@ -160,13 +160,9 @@ Integration of OpenSearch with Apache Kafka provides a powerful platform for rea
 ## Authors
 
 - [@Sparab16](https://github.com/Sparab16)
-----
 
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shrey16/)
-
-
-
 
 ## LICENSE
 
