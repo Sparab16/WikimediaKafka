@@ -4,16 +4,10 @@ import json
 from kafka import KafkaProducer
 
 from creds_config.kafka_connect_creds import *
+from creds_config.kafka_config import *
 
 
-class WikimediaProducer:
-    @staticmethod
-    def get_topic() -> str:
-        return "wikimedia.recentchange"
-
-    @staticmethod
-    def get_url() -> str:
-        return "https://stream.wikimedia.org/v2/stream/recentchange"
+class WikimediaProducerClass:
 
     @staticmethod
     def get_config() -> dict:
@@ -33,10 +27,11 @@ class WikimediaProducer:
         return config
 
     @staticmethod
-    def main():
-        topic = WikimediaProducer.get_topic()
-        url = WikimediaProducer.get_url()
-        config = WikimediaProducer.get_config()
+    def start_producer():
+
+        topic = topic_name
+        url = source_url
+        config = WikimediaProducerClass.get_config()
 
         # Create producer object
         producer = KafkaProducer(**config)
@@ -64,5 +59,3 @@ class WikimediaProducer:
             producer.close()
             print("Producer is closed")
 
-
-WikimediaProducer.main()

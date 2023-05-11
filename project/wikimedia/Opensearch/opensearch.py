@@ -3,7 +3,7 @@ from creds_config.opensearch_connect_creds import *
 
 class OpensearchClass:
 
-    def __init__(self, index_name):
+    def __init__(self):
         self.client = OpenSearch(
                 hosts=[{"host": host, "port": port}],
                 http_auth = auth,
