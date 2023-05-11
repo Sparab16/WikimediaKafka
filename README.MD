@@ -7,7 +7,7 @@ The project is built using Python, Kafka-Python, and Opensearch library, and con
 components, including a Kafka Producer that collects and sends data to a Kafka topic, a Kafka Consumer 
 that reads data from the Kafka topic and processes it, and an OpenSearch cluster that serves as the 
 sink for the processed data.
-----
+
 ## Appendix
 
 The project includes instructions on how to set up and configure the pipeline, as well as sample code 
@@ -17,7 +17,7 @@ on OpenSearch Dashboard that showcases the potential of the pipeline for data an
 Overall, the project provides a powerful tool for collecting and analyzing real-time data from Wikimedia 
 platforms, and can be used by researchers, analysts, and developers alike to gain insights and 
 create innovative applications and services.
-----
+
 ## Prerequisites
 Before running the project, make sure you have the following prerequisites installed on your system:
 - Python 3.6 or later
@@ -31,7 +31,7 @@ remotely accessible(<a href="https://www.conduktor.io/kafka/how-to-start-kafka-w
 Confluent</a>)
 - Opensearch Cluster, either locally(Using <a href="https://opensearch.org/docs/latest/install-and-configure/install-dashboards/docker/">Docker</a>)
 or remotely accessible(Using <a href="https://bonsai.io/">Bonsai.io</a>)
-----
+
 ## Run Locally
 
 - Clone the project
@@ -78,7 +78,7 @@ Wikimedia API and sending it to the specified Kafka topic.
 
 _Note_ :- By default, the script will run indefinitely until you manually stop it by pressing ```Ctrl+C```
 
-----
+
 
 ## OpenSearch API Reference
 
@@ -127,7 +127,7 @@ _Note_ :- By default, the script will run indefinitely until you manually stop i
 For more information related to API's. <a href="https://opensearch.org/docs/latest/api-reference/index-apis/index/">
 Click here</a>
 
-----
+
 
 ## Conduktor Platform
 
@@ -140,7 +140,7 @@ Conduktor is a platform that provides an intuitive GUI for managing and monitori
 #### Consumer Group UI
 ![conduktor_consumer.png](ref%2Fimages%2Fconduktor_consumer.png)
 
-----
+
 
 ## OpenSearch
 
@@ -154,7 +154,7 @@ Integration of OpenSearch with Apache Kafka provides a powerful platform for rea
 
 #### Dashboard UI
 
-----
+
 ![opensearch_dashboard.png](ref%2Fimages%2Fopensearch_dashboard.png)
 
 ## Authors
@@ -166,7 +166,7 @@ Integration of OpenSearch with Apache Kafka provides a powerful platform for rea
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shrey16/)
 
 
-----
+
 
 ## LICENSE
 
